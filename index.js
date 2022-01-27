@@ -3,6 +3,8 @@ const server = dgram.createSocket('udp4');
 var radius = require('radius');
 const { Client } = require('pg');
 
+//Test commit
+
 var TOKEN, ACTIVITY_ID, SESSION_DURATION, RINFO, HOTSPOT_MAC, packet;
 var LOG = true; 
 
